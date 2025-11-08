@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FairCity Check — Digital Fairness Audit Portal (2045)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #F4F6F8;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #1E4D7A, #2A5F8F);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0 0 8px 0;
+            font-size: 2em;
+            font-weight: 700;
+        }
+        header p {
+            margin: 0 0 15px 0;
+            font-size: 1.1em;
+            color: #D2B65E;
+        }
+        nav {
+            margin-top: 15px;
+        }
+        nav a {
+            color: white;
+            margin: 0 12px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        section {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(30,77,122,0.08);
+        }
+        h2 {
+            color: #1E4D7A;
+            border-bottom: 2px solid #D2B65E;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .card {
+            background: #F4F6F8;
+            padding: 20px;
+            border-radius: 6px;
+            border-left: 4px solid #D2B65E;
+            margin: 15px 0;
+        }
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin: 15px 0;
+        }
+        .metric {
+            background: white;
+            padding: 12px;
+            border-radius: 4px;
+            border: 1px solid #E0E0E0;
+        }
+        .metric strong {
+            color: #1E4D7A;
+        }
+        .quote {
+            background: #F4F6F8;
+            padding: 15px;
+            border-left: 3px solid #1E4D7A;
+            margin: 10px 0;
+            font-style: italic;
+        }
+        .quote strong {
+            font-style: normal;
+            color: #1E4D7A;
+        }
+        footer {
+            background: #1E4D7A;
+            color: white;
+            padding: 25px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        footer p {
+            margin: 8px 0;
+            font-size: 0.9em;
+        }
+        .btn {
+            display: inline-block;
+            background: #D2B65E;
+            color: #1E4D7A;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+        .score {
+            font-size: 1.8em;
+            color: #1E4D7A;
+            font-weight: 700;
+        }
+        ul {
+            line-height: 1.9;
+        }
+        @media (max-width: 768px) {
+            .metrics { grid-template-columns: 1fr; }
+            section { padding: 20px; margin: 15px 10px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>FairCity Check — Digital Fairness Audit Portal (2045)</h1>
+    <p>Ensuring accessibility for every citizen, one announcement at a time.</p>
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="rationale.html">About</a>
+    </nav>
+</header>
+
+<section id="hero">
+    <h2>Our Mission</h2>
+    <p>Every public digital announcement must now pass the Digital Fairness Audit before release. This process ensures that each message is accessible, understandable, and inclusive—across all official languages.</p>
+    <p>The audit may slow down publishing, but it guarantees that no citizen is left behind.</p>
+    <p><strong>Because true fairness takes time.</strong></p>
+</section>
+
+<section id="audit-example">
+    <h2>Featured Audit</h2>
+    <div class="card">
+        <h3>Multilingual Announcement Feed v7.3</h3>
+        <p class="score">Fairness Score: 91.6 / 100 ✅</p>
+        <p><strong>Status:</strong> Approved for Public Deployment</p>
+        
+        <div class="metrics">
+            <div class="metric">
+                <strong>Language Coverage</strong><br>
+                15 / 15 Official Languages
+            </div>
+            <div class="metric">
+                <strong>Average Translation Clarity</strong><br>
+                88%
+            </div>
+            <div class="metric">
+                <strong>Publication Delay</strong><br>
+                +2.5 days (due to audit review)
+            </div>
+            <div class="metric">
+                <strong>Citizen Understanding Index</strong><br>
+                95%
+            </div>
+            <div class="metric">
+                <strong>Efficiency Deviation</strong><br>
+                −12%
+            </div>
+        </div>
+        
+        <p style="margin-top: 15px; font-size: 0.85em; color: #888; font-style: italic;">"Accessibility achieved, efficiency adjusted."</p>
+    </div>
+</section>
+
+<section id="policy">
+    <h2>Digital Fairness Regulation Summary</h2>
+    <ul>
+        <li><strong>Comprehension Threshold:</strong> All digital systems must achieve comprehension ≥ 90% across official languages before launch.</li>
+        <li><strong>Human Review Protocol:</strong> Human review is mandatory for minority languages to ensure cultural accuracy.</li>
+        <li><strong>Acceptable Delays:</strong> Publication delays caused by audits are considered acceptable within the Fairness Priority Framework.</li>
+        <li><strong>Certification Authority:</strong> Managed by the National Algorithmic Auditor Council (NAAC).</li>
+    </ul>
+    <p style="margin-top: 15px; font-size: 0.85em; color: #888; font-style: italic;">"Efficiency may vary according to fairness compliance."</p>
+</section>
+
+<section id="voices">
+    <h2>Stakeholder Perspectives</h2>
+    
+    <div class="quote">
+        <strong>Government Officer:</strong> "It takes longer, but now everyone can read our city updates."
+    </div>
+    
+    <div class="quote">
+        <strong>Developer:</strong> "We had to redesign workflows, but complaints about language confusion dropped."
+    </div>
+    
+    <div class="quote">
+        <strong>AI Auditor:</strong> "Our algorithm ensures equal readability—though it sometimes flags idioms as bias."
+    </div>
+    
+    <div class="quote">
+        <strong>Translator:</strong> "Automated reviews miss cultural tone, so we still check every phrasing manually."
+    </div>
+    
+    <div class="quote">
+        <strong>Tourist (User):</strong> "I finally understood a public notice without asking for help. It was worth the wait."
+    </div>
+</section>
+
+<section id="feedback">
+    <h2>Public Feedback</h2>
+    
+    <div style="background: #F4F6F8; padding: 20px; border-radius: 6px; margin-bottom: 20px;">
+        <h3 style="color: #1E4D7A; margin-bottom: 15px; font-size: 1.2em;">Audit Statistics</h3>
+        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;">
+            <div><strong>Total Audits Completed:</strong> 3,274</div>
+            <div><strong>Average Delay:</strong> 2.3 days</div>
+            <div><strong>Verified Translations:</strong> 98,500</div>
+            <div><strong>Appeals Filed:</strong> 34</div>
+        </div>
+    </div>
+    
+    <h3 style="color: #1E4D7A; margin-bottom: 15px;">Recent Comments</h3>
+    
+    <div class="quote">
+        "It's slower, but finally clear."
+    </div>
+    
+    <div class="quote">
+        "I used to ignore city notices; now I can read them all."
+    </div>
+    
+    <div class="quote">
+        "The updates feel late, but at least they make sense."
+    </div>
+    
+    <div class="quote">
+        "I'd trade some speed for fairness any day."
+    </div>
+</section>
+
+<section id="overview">
+    <h2>About This System</h2>
+    <p>This system evolved from the 2025 Multilingual Announcement Feed project, which revealed that non-native speakers struggled to access verified information. The FairCity Check portal institutionalises fairness evaluation to ensure that every announcement is readable by all citizens, even if it takes longer to publish.</p>
+</section>
+
+<footer>
+    <p><strong>National Algorithmic Auditor Council © 2045</strong></p>
+    <p>All fairness evaluations follow the Digital Inclusion Act.</p>
+    <p style="margin-top: 20px;"><a href="rationale.html" style="color: #D2B65E; text-decoration: underline;">Read More: From A2 to A3</a></p>
+    <p style="margin-top: 30px; font-size: 0.75em; color: #999; line-height: 1.5;">
+        <em><strong>Fictional Disclaimer:</strong> This website is a speculative artefact for academic purposes. It imagines a plausible future to question how fairness and efficiency coexist in digital governance. All names, data, and organisations are fictional.</em>
+    </p>
+</footer>
+
+</body>
+</html>
